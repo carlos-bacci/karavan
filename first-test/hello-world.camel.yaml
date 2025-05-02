@@ -1,0 +1,14 @@
+- route:
+    id: hello-world
+    from:
+      id: from-6599
+      uri: platform-http
+      parameters:
+        path: /hello
+      steps:
+        - setBody:
+            id: setBody-4b81
+            expression:
+              constant:
+                id: constant-65db
+                expression: Hello World
